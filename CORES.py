@@ -1,0 +1,31 @@
+print('\033[35m='*30)
+print('\033[36m     CORES NO TERMINAL!!!!')
+print('\033[35m='*30)
+
+print('\n \033[m    CORES DA LETRA: \n')
+
+print('\033[30m PRETO')
+print('\033[31m VERMELHO')
+print('\033[32m VERDE')
+print('\033[33m AMARELO')
+print('\033[34m AZUL')
+print('\033[35m LILÁS')
+print('\033[36m CIANO')
+print('\033[37m CINZA')
+print('\033[38m BRANCO')
+
+print('\033[35m='*30)
+print('\n \033[m    CORES DE FUNDO: \n')
+
+print('\033[7;30m PRETO   \033[m')
+print('\033[7;31m VERMELHO\033[m')
+print('\033[7;32m VERDE   \033[m')
+print('\033[7;33m AMARELO \033[m')
+print('\033[7;34m AZUL    \033[m')
+print('\033[7;35m LILÁS   \033[m')
+print('\033[7;36m CIANO   \033[m')
+print('\033[7;37m CINZA   \033[m')
+print('\033[7;38m BRANCO  \033[m')
+print('\033[m  que cor é?')
+
+print('\033[7;31;43m fundo amarelo e letra vermelha\033[m')
